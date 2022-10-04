@@ -220,19 +220,38 @@ int main() {
   '==' Equal-To Operator */
   int t = 5;
   int u = 3;
-  printf("Equal-To     | %i == %i: %i (False)", t, u, t == u);
+  printf("Equal-To                 | %i == %i: %i (False)", t, u, t == u);
   printf("\n");
 
   // '!=' Not-Equal Operator
   int v = 5;
   int w = 3;
-  printf("Not-Equal    | %i != %i: %i (True)", v, w, v != w);
+  printf("Not-Equal                | %i != %i: %i (True)", v, w, v != w);
   printf("\n");
 
   // '>' Greater-Than Operator
   int r = 5;
   int s = 3;
-  printf("Greater-Than | %i > %i: %i  (True)", r, s, r > s);
+  printf("Greater-Than             | %i > %i: %i  (True)", r, s, r > s);
+  printf("\n");
+
+  // '<' Less-Than Operator
+  int aa = 5;
+  int bb = 3;
+  printf("Less-Than                | %i < %i: %i  (False)", aa, bb, aa < bb);
+  printf("\n");
+
+  // '>=' Greater-Than or Equal-To Operator
+  int cc = 3;
+  int dd = 3;
+  printf("Greater-Than or Equal-To | %i >= %i: %i  (True)", cc, dd, cc >= dd);
+  printf("\n");
+
+  // '<=' Less-Than or Equal-To Operator
+  int ee = 3;
+  int ff = 3;
+  printf("Less-Than or Equal-To    | %i <= %i: %i  (True)", ee, ff, ee <= dd);
+  printf("\n");
 
   printf("\n");
 
