@@ -223,6 +223,12 @@ int main() {
   printf("Equal-To     | %i == %i: %i (False)", t, u, t == u);
   printf("\n");
 
+  // '!=' Not-Equal Operator
+  int v = 5;
+  int w = 3;
+  printf("Not-Equal    | %i != %i: %i (True)", v, w, v != w);
+  printf("\n");
+
   // '>' Greater-Than Operator
   int r = 5;
   int s = 3;
