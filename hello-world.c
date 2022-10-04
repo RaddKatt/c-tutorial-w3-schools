@@ -255,5 +255,5 @@ int main() {
 
   printf("\n");
 
-  return 0; /* Block comment */
+  return 0;
 }
