@@ -212,6 +212,23 @@ int main() {
   printf(" (int q = 200; q <<= 2;) (shift bits left by 2)\n");
 
   printf("\n");
+  printf("COMPARISON OPERATORS\n");
+
+  /* COMPARISON OPERATORS
+  Comparison operators are used to compare two values.
+  The return value of a comparison is either true (1) or false (0).
+  '==' Equal-To Operator */
+  int t = 5;
+  int u = 3;
+  printf("Equal-To     | %i == %i: %i (False)", t, u, t == u);
+  printf("\n");
+
+  // '>' Greater-Than Operator
+  int r = 5;
+  int s = 3;
+  printf("Greater-Than | %i > %i: %i  (True)", r, s, r > s);
+
+  printf("\n");
 
   return 0; /* Block comment */
 }
