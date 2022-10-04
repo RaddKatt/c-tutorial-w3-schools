@@ -149,37 +149,37 @@ int main() {
   '=' Operator */
   char g = 'S';
   printf("%c.", g);
-  printf("  (char g = 'S';)\n");
+  printf("   (char g = 'S';)\n");
 
   // '+=' Operator (same as 'x = x + 3')
   int h = 5;
   h += 3; // h = h + 3
   printf("%i.", h);
-  printf("  (int h = 5; h += 3;)\n");
+  printf("   (int h = 5; h += 3;)\n");
 
   // '-=' Operator (same as 'x = x - 3')
   int i = 5;
   i -= 3; // i = i - 3
   printf("%i.", i);
-  printf("  (int i = 5; i -= 3;)\n");
+  printf("   (int i = 5; i -= 3;)\n");
 
   // '*=' Operator (same as 'x = x * 3')
   int j = 5;
   j *= 3; // j = j * 3
   printf("%i.", j);
-  printf(" (int j = 5; j *= 3;)\n");
+  printf("  (int j = 5; j *= 3;)\n");
 
   // '/=' Operator (same as 'x = x / 3')
   int k = 15;
   k /= 3; // k = k / 3
   printf("%i.", k);
-  printf("  (int k = 15; k /= 3;)\n");
+  printf("   (int k = 15; k /= 3;)\n");
 
   // '%=' Operator (same as 'x = x % 3')
   int l = 5;
   l %= 3; // l = l % 3
   printf("%i.", l);
-  printf("  (int l = 5; l %%= 3;)\n");
+  printf("   (int l = 5; l %%= 3;)\n");
 
   // '&=' Operator (x = x bitwise 'AND') (same as x = x & 3)
   int m =  12; // 12 in binary is 1100
